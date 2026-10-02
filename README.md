@@ -54,6 +54,7 @@ Reinstalling the Command Line Tools (`xcode-select --install`) also fixes it per
 4. For option 2, enter how many future years to predict (1–10).
 5. Enter `0` to go back or exit.
 
-## Author
+## Author and Credits
 
-Ayesha Atif — Semester 3, Object Oriented Programming midterm.
+- **Author:** Ayesha Atif
+- **Coursework:** Object Oriented Programming (OOP) – Semester 3 Midterm
