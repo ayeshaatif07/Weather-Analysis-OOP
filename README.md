@@ -23,7 +23,7 @@ A C++ command-line application for the Object Oriented Programming midterm. It r
 
 ## Dataset
 
-The program expects `weather_data_EU_1980-2019_temp_only.csv` in the working directory. It has an `utc_timestamp` column followed by one `<COUNTRY>_temperature` column per country. The file is about 70 MB, so it is not stored in this repository. Place it in the project root before running.
+The program expects `weather_data_EU_1980-2019_temp_only.csv` in the working directory. It has an `utc_timestamp` column followed by one `<COUNTRY>_temperature` column per country. The file (about 70 MB) is included in the repository root.
 
 ## Build and Run
 
