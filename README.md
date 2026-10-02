@@ -36,6 +36,16 @@ g++ -std=c++17 -o weather_analysis main.cpp CSVReader.cpp OHLCComputer.cpp Candl
 ./weather_analysis
 ```
 
+### macOS: `'vector' file not found`
+
+If the build fails with this error, the Command Line Tools cannot find the C++ headers. Point the compiler at them with `-I`:
+
+```bash
+g++ -std=c++17 -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -o weather_analysis main.cpp CSVReader.cpp OHLCComputer.cpp CandlestickPlotter.cpp PredictionSystem.cpp && ./weather_analysis
+```
+
+Reinstalling the Command Line Tools (`xcode-select --install`) also fixes it permanently.
+
 ## Usage
 
 1. Pick **1** for the OHLC table and candlestick plot, or **2** for prediction.
