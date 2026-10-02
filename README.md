@@ -30,8 +30,8 @@ The program expects `weather_data_EU_1980-2019_temp_only.csv` in the working dir
 Requires a C++11 (or newer) compiler such as `g++` or `clang++`. Run the commands from inside the project folder.
 
 ```bash
-git clone https://github.com/ayeshaatif07/weather-analysis-oop.git
-cd weather-analysis-oop
+git clone https://github.com/ayeshaatif07/Weather-Analysis-OOP.git
+cd Weather-Analysis-OOP
 g++ -std=c++17 -o weather_analysis main.cpp CSVReader.cpp OHLCComputer.cpp CandlestickPlotter.cpp PredictionSystem.cpp
 ./weather_analysis
 ```
